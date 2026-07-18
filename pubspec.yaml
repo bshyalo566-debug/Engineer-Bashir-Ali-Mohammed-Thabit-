@@ -1,0 +1,76 @@
+name: barcode_print_pro
+version: 1.0.0+1
+publish_to: 'none'
+
+description: Enterprise Barcode Scanning & Thermal Printing for Android
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0
+
+  # Dependency Injection
+  get_it: ^8.0.0
+
+  # Utilities
+  equatable: ^2.0.7
+  logger: ^2.5.0
+  intl: ^0.20.0
+  uuid: ^4.5.0
+  crypto: ^3.0.6
+
+  # Database
+  sqflite_sqlcipher: ^3.3.0
+  path_provider: ^2.1.5
+
+  # Scanning
+  mobile_scanner: ^6.0.0
+  google_mlkit_text_recognition: ^0.15.0
+  google_mlkit_barcode_scanning: ^0.15.0
+
+  # USB Printing
+  usb_serial: ^0.5.2
+
+  # Image Processing
+  image: ^4.5.0
+
+  # PDF / Export
+  pdf: ^3.11.0
+  csv: ^6.0.0
+  share_plus: ^10.0.0
+
+  # Settings
+  shared_preferences: ^2.3.0
+
+  # Charts
+  fl_chart: ^0.70.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
+    - family: NotoSansArabic
+      fonts:
+        - asset: assets/fonts/NotoSansArabic-Regular.ttf
+        - asset: assets/fonts/NotoSansArabic-Bold.ttf
+          weight: 700

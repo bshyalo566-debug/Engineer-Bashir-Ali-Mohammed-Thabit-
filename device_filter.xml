@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Zebra printers -->
+    <usb-device vendor-id="1500" product-id="1" />
+    <usb-device vendor-id="1500" product-id="2" />
+    <usb-device vendor-id="1500" product-id="3" />
+    <!-- FTDI -->
+    <usb-device vendor-id="1027" product-id="24577" />
+    <usb-device vendor-id="1027" product-id="24597" />
+    <!-- Prolific -->
+    <usb-device vendor-id="1659" product-id="8963" />
+    <!-- CH340 -->
+    <usb-device vendor-id="6790" product-id="29987" />
+    <!-- Generic CDC -->
+    <usb-device vendor-id="5401" />
+</resources>
